@@ -1,0 +1,5 @@
+ia = eval(input("Enter the investment amount:"))
+ar = eval(input("Enter number of years:"))
+y = eval(input("Enter number of year:"))
+fv = ia * (1 + (ar / 100 / 12)) ** (y * 12)
+print("Accumulated value is {:.2f}".format(fv))

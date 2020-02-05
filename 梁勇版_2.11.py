@@ -1,0 +1,5 @@
+finalamount = eval(input("Enter final account value:"))
+annualr = eval(input("Enter annual interest rate in percent:"))
+year = eval(input("Enter number of years:"))
+initialamount = finalamount / ((  1 + (annualr / 100 / 12)   ) ** (year * 12) )
+print("initial deposit value is {}".format(initialamount))
